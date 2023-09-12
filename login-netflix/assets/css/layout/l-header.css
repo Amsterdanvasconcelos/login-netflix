@@ -1,0 +1,12 @@
+.l-header {
+    position: relative;
+}
+
+.l-header__logo-wrapper {
+    width: 10.625rem;
+}
+
+.l-header__logo-wrapper img {
+    width: 100%;
+}
+
