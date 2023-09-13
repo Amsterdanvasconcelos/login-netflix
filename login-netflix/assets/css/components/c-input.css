@@ -12,3 +12,7 @@
 .c-input:hover {
     background-color: #444;
 }
+
+.c-input:focus {
+    outline: 1px solid rgb(203, 7, 7);
+}

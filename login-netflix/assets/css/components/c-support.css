@@ -1,0 +1,30 @@
+.c-support {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.c-support__remember {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.c-support__remember input {
+    height: 15px;
+    width: 15px;
+}
+
+.c-support__remember label {
+    color: #737373;
+    font-size: 13px;
+}
+
+.c-support__help a {
+    color: #737373;
+    font-size: 13px;
+}
+
+.c-support__help a:hover {
+    text-decoration: underline;
+}

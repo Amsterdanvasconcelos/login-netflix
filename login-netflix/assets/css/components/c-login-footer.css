@@ -1,3 +1,49 @@
-.c-login-footer__facebook img{
+.c-login-footer__facebook {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.c-login-footer__facebook img {
     width: 20px;
+}
+
+.c-login-footer__facebook a {
+    margin-top: 2px;
+    color: #737373;
+    font-size: 13px;
+}
+
+.c-login-footer__sign-up {
+    margin-bottom: 10px;
+}
+
+.c-login-footer__sign-up p {
+    color: #737373;
+    font-size: 16px;
+}
+
+.c-login-footer__sign-up a {
+    color: white;
+    font-size: 16px;
+}
+
+.c-login-footer__sign-up a:hover {
+    text-decoration: underline;
+}
+
+.c-login-footer__terms p {
+    color: #737373;
+    font-size: 13px;
+}
+
+.c-login-footer__terms a {
+    color: #0071eb;
+    font-size: 13px;
+}
+
+.c-login-footer__terms a:hover {
+    text-decoration: underline;
 }

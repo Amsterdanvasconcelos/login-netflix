@@ -13,16 +13,16 @@
     <link rel="stylesheet" href="assets/css/layout/l-header.css">
     <link rel="stylesheet" href="assets/css/layout/l-login.css">
     <!-- Components -->
-    <link rel="stylesheet" href="assets/css/components/c-login-footer.css">
     <link rel="stylesheet" href="assets/css/components/c-input.css">
     <link rel="stylesheet" href="assets/css/components/c-submit-btn.css">
+    <link rel="stylesheet" href="assets/css/components/c-support.css">
+    <link rel="stylesheet" href="assets/css/components/c-login-footer.css">
     
     <title>Login Netflix</title>
-    
+
 </head>
 <body>
     
-    <!-- Funcionou -->
     <header class="l-header">
         <div class="l-header__logo-wrapper">
             <a href="#"><img src="assets/img/netflix_logo.png" alt="Logo Netflix"></a>
@@ -39,17 +39,18 @@
             </form>
             <div class="c-support">
                 <div class="c-support__remember">
-                    <span><input type="checkbox" style="margin: 0; padding: 0; height: 13px;"></span>
-                    <span>Lembre-se de mim</span>
+                    <input id="remember" type="checkbox" style="margin: 0; padding: 0; height: 13px;">
+                    <label for="remember">Lembre-se de mim</label>
                 </div>
                 <div class="c-support__help">
                     <a href="#">Precisa de ajuda?</a>
                 </div>
             </div>
+
             <div class="c-login-footer">
                 <div class="c-login-footer__facebook">
-                    <span><img src="assets/img/facebook_logo.png" alt="Logo Facebook"></span>
-                    <span><a href="#">Conectar com facebook</a></span>
+                    <img src="assets/img/facebook_logo.png" alt="Logo Facebook">
+                    <a href="#">Conectar com facebook</a>
                 </div>
                 <div class="c-login-footer__sign-up">
                     <p>Novo por aqui? <a href="#">Assine agora.</a></p>
