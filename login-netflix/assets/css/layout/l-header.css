@@ -1,5 +1,6 @@
 .l-header {
     position: relative;
+    padding: 20px 50px;
 }
 
 .l-header__logo-wrapper {
@@ -9,4 +10,3 @@
 .l-header__logo-wrapper img {
     width: 100%;
 }
-

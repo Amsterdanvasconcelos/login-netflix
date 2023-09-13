@@ -1,0 +1,15 @@
+.l-login {
+    position: relative;
+    padding: 60px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #000000bf;
+    height: 550px;
+    max-width: 450px;
+}
+
+.l-login__title {
+    margin-bottom: 30px;
+    color: white;
+    font-size: 32px;
+}

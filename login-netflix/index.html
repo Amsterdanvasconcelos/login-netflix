@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="assets/css/base/geral.css">
     <!-- Layout -->
     <link rel="stylesheet" href="assets/css/layout/l-header.css">
+    <link rel="stylesheet" href="assets/css/layout/l-login.css">
     <!-- Components -->
+    <link rel="stylesheet" href="assets/css/components/c-login-footer.css">
+    <link rel="stylesheet" href="assets/css/components/c-input.css">
+    <link rel="stylesheet" href="assets/css/components/c-submit-btn.css">
     
     <title>Login Netflix</title>
     
@@ -24,19 +28,13 @@
         </div>
     </header>
 
-    <main class="l-main">
-        <div class="c-login">
-            <h2 class="c-login__title">Login</h2>
+    <main>
+        <div class="l-login">
+            <h2 class="l-login__title">Login</h2>
             <form>
-                <div class="c-input_wrapper">
-                    <input required type="email" type="tel" placeholder="Email ou número de telefone">
-                </div>
-                <div class="c-input_wrapper">
-                    <input required type="password" placeholder="Senha">
-                </div>
-                <div class="c-submit-wrapper">
-                    <button type="submit">Entrar</button>
-                </div>
+                <input class="c-input" required type="email" type="tel" placeholder="Email ou número de telefone">
+                <input class="c-input" required type="password" placeholder="Senha">
+                <button class="c-submit-btn" type="submit">Entrar</button>
             </form>
             <div class="c-support">
                 <div class="c-support__remember">

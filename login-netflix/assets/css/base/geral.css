@@ -8,8 +8,6 @@ body {
 
 body::before {
     content: '';
-    top: 0;
-    left: 0;
     position: absolute;
     background-color: #00000080;
     height: 100%;
